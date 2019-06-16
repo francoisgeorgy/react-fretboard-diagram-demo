@@ -110,22 +110,23 @@
 
 .fretboard-group {}
 
+/*
 .fretboard-dot {
   fill: #fff;
   stroke: #000;
   stroke-width: 4;
 }
+*/
 
+/*
 .fretboard-dot-number {
-
   font-family: sans-serif;
   text-anchor: middle;
-
   fill: #000;
-  /*stroke: #fff;*/
   stroke-width: 0;
   font-size: 20;
 }
+*/
 
 .fretboard-string {
   stroke: #000;
@@ -140,11 +141,9 @@
 .fretboard-fret-number {
   text-anchor: middle;
   font-family: sans-serif;
-
   fill: #000;
-  /*stroke: #000;*/
   stroke-width: 0;
-  font-size: 20;
+  /*font-size: 20;*/
 }
 
 .over.fretboard-dot {

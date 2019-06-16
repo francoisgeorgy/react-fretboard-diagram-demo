@@ -11,6 +11,7 @@
         "fretboard-api": "^0.5.1",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
+        "react-fretboard-diagram": "../react-fretboard-diagram/",
         "react-router-dom": "^5.0.0",
         "react-scripts": "3.0.1",
         "typescript": "3.5.1"

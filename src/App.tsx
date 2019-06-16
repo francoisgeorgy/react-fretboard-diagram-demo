@@ -3,11 +3,12 @@ import './App.css';
 // import {HashRouter as Router, Route, Switch, Link} from "react-router-dom";
 import Home from "./components/Home";
 import FD from "react-fretboard-diagram";
+import Demo1 from "./components/Demo1";
 
 const App: React.FC = () => (
     <div>
         <FD.Ping />
-        <Home />
+        <Demo1 />
     </div>
 );
 

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+    import React, {Component} from 'react';
 import Diagram from "../../src/component/Diagram";
 
 
