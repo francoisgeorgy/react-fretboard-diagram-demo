@@ -1,10 +1,13 @@
 import React, {useState} from "react";
 import {Tuning} from "fretboard-api";
 import FD from "react-fretboard-diagram";
+import DiagramStyle from "react-fretboard-diagram/dist/utils/DiagramStyle";
+import "./Demo1.css";
 
 //TODO: intervals should be automatically computed
 
 const S: string[] = [
+    "---010",
     "X32010",
     "X02220",
     "320003",
@@ -45,7 +48,7 @@ const Demo1: React.FC = () => {
 
         <h3>E major chord:</h3>
         <div style={{width:"400px"}}>
-            <FD.Diagram frets={4} shapes={[S[index]]} className="foo" />
+            <FD.Diagram frets={4} shapes={[S[index]]} text='interval' className="foo" />
         </div>
 
         <button onClick={() => setIndex((index + 1) % S.length)}>
